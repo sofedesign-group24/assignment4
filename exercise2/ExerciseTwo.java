@@ -25,6 +25,10 @@ public class ExerciseTwo
         {
             System.out.println("The product is globe and the barcode is" + globe);
         }
+        else
+        {
+            System.out.println("The item does not exist. Please enter a valid barcode.");
+        }
 
     }
 }
